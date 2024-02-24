@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Russo+One&family=Staatliches&display=swap');
+
+:root{
+    --basecolor: #8d63c1;
+    --highlightcolor: #51236c;
+    --monocolor: #ffffff;
+    --monocolor2: #200937;
+    --extracolor: #eee488;
+
+    --customcolor: #a72f35;
+    --customcolor2: #cb741d;
+    --customcolor3: #1fd6dc;
+    --customcolor4: #2fbb27;
+    --customcolor5: #945c86;
+    --customcolor6: #1c1064;
+}
+
+*{
+    margin: 0px;
+}
+header{
+    color: var(--monocolor);
+    background-color: var(--basecolor);
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+} header h1{
+    font-family: "Russo One", sans-serif;
+    font-size: 1.5em;
+} header img{
+    width: 10%; max-width: 58px;
+    padding-right: 20px;
+}
+main{
+    padding: 20px;
+} main h1{
+    text-align: center;
+} main p{
+    font-family: "Belanosima", sans-serif;
+}
+span{
+    color: var(--monocolor);
+}
+
+#SB{
+    position: relative;
+    font-family: "Belanosima", sans-serif;
+    margin-left: auto;
+    padding: 8px;
+    color: var(--monocolor);
+    background-color: var(--highlightcolor);
+    border: 2px outset var(--monocolor2);
+    border-style: solid;
+    border-radius: 20px;
+}
+
+i#itemsForHVM{
+    padding: 20px;
+    font-size: 600%;
+    color: var(--customcolor);
+}
+i#mapForHVM{
+    padding: 20px;
+    font-size: 600%;
+    color: var(--customcolor2);
+}
+i#creaturesForHVM{
+    padding: 20px;
+    font-size: 600%;
+    color: var(--customcolor3);
+}
+i#inventoryForHVM{
+    padding: 20px;
+    font-size: 600%;
+    color: var(--customcolor4);
+}
+i#descriptionForHVM{
+    padding: 20px;
+    font-size: 600%;
+    color: var(--customcolor5);
+}
+i#masterbookForHVM{
+    padding: 20px;
+    font-size: 600%;
+    color: var(--customcolor6);
+}
+.moreInformations{
+    columns: 3;
+}
+.down a{
+    display: block;
+    color: var(--monocolor);
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    background-color: var(--basecolor);
+    border-radius: 20px;
+}
